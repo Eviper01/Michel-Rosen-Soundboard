@@ -4,4 +4,13 @@ body {
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
+    font-family: "Tahoma"
+}
+
+h1 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
 }
