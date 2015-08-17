@@ -50,7 +50,10 @@ app.once('ready', function() {
       {
         label: 'Rosenboard',
         submenu: [
-
+          {
+            label: 'About Rosenboard',
+            selector: 'orderFrontStandardAboutPanel:'
+          },
           {
             type: 'separator'
           },
