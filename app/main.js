@@ -52,7 +52,13 @@ app.once('ready', function() {
         submenu: [
           {
             label: 'About Rosenboard',
-            selector: 'orderFrontStandardAboutPanel:'
+            click: function () {
+              aboutwindow = new BrowserWindow({width: 300, height: 400, resizable: false, fullscreen: false});
+
+              // and load the about.html of the app.
+              aboutwindow.loadUrl('file://' + __dirname + '/about.html');}
+
+
           },
           {
             type: 'separator'
