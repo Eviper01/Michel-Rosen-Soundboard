@@ -52,6 +52,7 @@ app.once('ready', function() {
         submenu: [
           {
             label: 'About Rosenboard',
+            accelerator: 'Command+I',
             click: function () {
               aboutwindow = new BrowserWindow({width: 300, height: 400, resizable: false, fullscreen: false});
 

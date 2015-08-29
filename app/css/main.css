@@ -4,7 +4,8 @@ body {
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
-    font-family: "Tahoma"
+    font-family: "Tahoma";
+    text-align: justify;
 }
 
 h1 {
@@ -58,4 +59,14 @@ h3 {
 
 .btnright:hover {
   text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
 }
