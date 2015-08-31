@@ -182,7 +182,10 @@ app.once('ready', function() {
       {
         label: 'Help',
         submenu: [
-
+          {
+            label: 'Github Repository',
+            click: function() { require('shell').openExternal('http://github.com/Eviper01/Rosenboard') }
+          },
         ]
       }
     ];
