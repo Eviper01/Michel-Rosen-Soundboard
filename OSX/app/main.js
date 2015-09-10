@@ -22,6 +22,7 @@ app.on('window-all-closed', function() {
 // initialization and is ready to create browser windows.
 app.on('ready', function() {
   // Create the browser window.
+  app.commandLine.appendSwitch('disable-web-security'); // enable remote control
   mainWindow = new BrowserWindow({width: 460, height: 600, resizable: false, fullscreen: false});
 
   // and load the index.html of the app.
